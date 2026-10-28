@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi amada Keylin  🌻❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuentes elegantes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Animación de corazones y pétalos flotantes -->
+    <div id="particles-container"></div>
+
+    <!-- Encabezado / Hero -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge-date">🌻 1 Año y 10 Meses Juntos 🌻</span>
+            <h1>Para mi amor, <span class="highlight">Keylin 
+                <div></div> "Mikisita"</span></h1>
+            <p class="subtitle">Eres el girasol que ilumina todos mis días 🐱✨</p>
+            
+            <div class="main-photo-container">
+                <img src="foto-portada.jpg" alt="Julián y Keylin" class="main-photo">
+                <div class="photo-frame"></div>
+            </div>
+
+            <a href="#contador" class="btn-scroll">Descubre nuestra historia ↓</a>
+        </div>
+    </header>
+
+    <!-- Contador de Tiempo -->
+    <section id="contador" class="section container">
+        <h2>Nuestro Tiempo de Amor</h2>
+        <p class="section-desc">Cada segundo a tu lado ha sido el regalo más hermoso de mi vida.</p>
+        
+        <div class="timer-grid">
+            <div class="timer-card">
+                <span id="days">0</span>
+                <label>Días</label>
+            </div>
+            <div class="timer-card">
+                <span id="hours">0</span>
+                <label>Horas</label>
+            </div>
+            <div class="timer-card">
+                <span id="minutes">0</span>
+                <label>Minutos</label>
+            </div>
+            <div class="timer-card">
+                <span id="seconds">0</span>
+                <label>Segundos</label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carta de Amor -->
+    <section class="section letter-section container">
+        <div class="letter-card">
+            <div class="flower-decoration top-left">🌻</div>
+            <div class="flower-decoration top-right">🌸</div>
+            <h2>Mi Querida Keylin 💌</h2>
+            <div class="letter-body">
+                <p>Hoy cumplimos 1 año y 10 meses desde que decidimos caminar juntos, y no hay día en el que no le agradezca a la vida por tenerte a mi lado.</p>
+                <p>Eres como un girasol: llena de luz, de vida y con una energía hermosa ( cuando no te arrechas, ayuda ) que transforma cualquier momento gris en un día lleno de color. Me encantan tu sonrisa, tu ternura y esa dulzura única que me recuerda a los gatitos que tanto te fascinan.</p>
+                <p>Gracias por cada abrazo, por cada risa compartida, por tu paciencia y por construir conmigo este amor tan bonito. Este tiempo juntos es solo el comienzo de todo lo que nos espera.</p>
+                <p class="letter-signature">Con todo mi amor y mi corazón,<br><strong>Julián ❤️</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Fotos -->
+    <section class="section container">
+        <h2>Nuestros Momentos Especiales 📸</h2>
+        <p class="section-desc">Un pequeño recorrido por instantes inolvidables a tu lado.</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="foto-1.jpg" alt="Recuerdo especial 1">
+                <div class="gallery-overlay">
+                    <p>Cada sonrisa contigo es mi momento favorito ✨</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="foto-2.jpg" alt="Recuerdo especial 2">
+                <div class="gallery-overlay">
+                    <p>Contigo el mundo es más bonito 🌻</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="foto-3.jpg" alt="Recuerdo especial 3">
+                <div class="gallery-overlay">
+                    <p>Siempre juntos, mi amor 🐱❤️</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rincón de Gatitos y Girasoles -->
+    <section class="section cute-corner container">
+        <div class="cute-card">
+            <img src="gatito.png" alt="Gatito tierno" class="kitty-img" onerror="this.src='https://cdn-icons-png.flaticon.com/512/616/616430.png'">
+            <h3>Un Rincón Especial Para Ti 🐾🌻</h3>
+            <p>Así como los girasoles buscan la luz del sol, yo siempre busco tu mirada para sentirme en casa, este regalo te lo mando cotufa para la mujer más arrechona y berrinchuda del world.</p>
+        </div>
+    </section>
+
+    <!-- Sorpresa Interactiva -->
+    <section class="section container text-center">
+        <h2>¿Tienes una sorpresa? 🎁</h2>
+        <p class="section-desc">Haz clic en el botón de abajo para recibir un mensaje especial.</p>
+
+        <button id="btn-surprise" class="btn-primary">Haz Clic Aquí, Keylin ✨</button>
+
+        <!-- Modal Sorpresa -->
+        <div id="modal-surprise" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" id="close-modal">&times;</span>
+                <div class="modal-header">
+                    <span>🌻🐱❤️</span>
+                </div>
+                <h3>¡Te Amo Infinitamente, Keylin!</h3>
+                <p>Prometo seguir cuidando de ti, sacándote sonrisas, arrecheras por no entenderme y abracitos todos los días.</p>
+                <p class="modal-highlight">¡Felices 1 Año y 10 Meses juntos!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>Hecho con todo el amor del mundo por <strong>Julián</strong> para <strong>Keylin</strong> 🌻💖</p>
+        <p class="footer-sub">1 año y 10 meses creando nuestra historia de amor</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
